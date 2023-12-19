@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initial box generation
-    generateBoxes(1);
+    generateBoxes();
   });
   
   function generateBoxes(num) {

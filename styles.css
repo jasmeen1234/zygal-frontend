@@ -3,16 +3,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 80vh;
+    min-width: 80vw;
+    border: 4px solid rgb(2, 154, 249);
+    
+    /* trbl */
+    margin: 60px 110px 0px 190px;
+    overflow:hidden;
   }
   
   .app {
-    text-align: center;
+    /* text-align: center; */
+    position:relative
   }
   
   .box-container {
     position: relative;
-    border: 2px solid red;
+   
     height: 85vh;
     width: 80vw;
   }
@@ -20,5 +27,9 @@ body {
   .box {
     background-color: black;
     position: absolute;
+  }
+  .generate-box{
+    background-color:  rgb(2, 154, 249);
+    border-radius: 7px;
   }
   
